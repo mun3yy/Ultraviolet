@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galaxy Proxy</title>
+  <link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .btn {
+      background: #6a00ff;
+      color: white;
+      padding: 15px 30px;
+      margin: 20px;
+      font-size: 1rem;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 0 15px #6a00ff80;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: white;
+      color: #6a00ff;
+      box-shadow: 0 0 25px #ffffffaa;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 Galaxy Proxy</h1>
+  <button onclick="location.href='/uv'" class="btn">Open Proxy</button>
+  <button onclick="location.href='/games'" class="btn">Play Games</button>
+  <button onclick="location.href='https://classroom.google.com'" class="btn">Fake Exit</button>
+
+  <script>
+    document.title = "Google Drive";
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        window.location.href = "https://classroom.google.com";
+      }
+    });
+  </script>
+</body>
+</html>
 
